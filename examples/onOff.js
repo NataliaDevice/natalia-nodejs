@@ -10,5 +10,8 @@ nataliaCilent.setup(function() {
 
 // Turn LED on and off every 5 seconds
 setInterval(function() {
-  nataliaCilent.toggleLED(1, 'on')
+  nataliaCilent.toggleLED(1, 'on', function() {
+    sleep.sleep(1)
+    nataliaCilent.toggleLED(1, 'off')
+  })
 }, 5000)
