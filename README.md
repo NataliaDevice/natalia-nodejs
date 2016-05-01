@@ -1,5 +1,5 @@
 # Node.js wrapper for Natalia
-Node.js wrapper that wrapper provides simple connection, setup, and toggling of LEDs on Natalia.
+Node.js wrapper that provides a simple connection, setup, and toggling of LEDs on Natalia.
 
 ### Installation
 ```bash
